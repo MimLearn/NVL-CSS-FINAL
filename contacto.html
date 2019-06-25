@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=»utf-8″> 
+</head>
+<body>
+<title>Formulario final</title>
+<h1>Formulario de contacto</h1>
+<form method="post" action="final.php">
+    <div name="inicio">
+      <label for="nombre">Nombre:</label>
+      <input id="nombre" type="text">
+    </div>
+	<br/>
+	<div>
+      <label for="ciudad">Provincia:</label>
+        <input name="provincia" type="radio" value="MA" checked>Madrid</option>
+        <input name="provincia" type="radio" value="BA">Barcelona</option>
+        <input name="provincia" type="radio" value="VA">Valencia</option>
+    </div>
+	<br/>
+	<div>
+      <label for="codigo postal">Código postal de tu lugar de residencia:</label>
+      <input id="codPostal" type="number">
+    </div>
+    <br/>
+    <div>
+      <label for="email">E-mail:</label>
+      <input id="email" type="text">
+    </div>
+	<br/>
+    <div>
+      <label for="telefono">Teléfono:</label>
+      <input id="telefono" type="text">
+    </div>
+    <br/>
+    <div>
+      <label for="satisfacción">Acabamos de lanzar nuestra página web. ¿Cómo calificarías la navegación?:</label>
+      <select id="satisfacción">
+        <option value="muyfacil">Muy fácil</option>
+        <option value="facil">Fácil</option>
+        <option value="regular">Regular</option>
+        <option value="mala">Mala</option>
+        <option value="muymala">Muy mala</option>
+      </select>
+  </div>
+  <br/>
+  <div>
+	<label for="pregunta1">¿Hay alguna pregunta o sugerencia que nos quieras hacer?</label>
+	<br/>
+	<br/>
+	<textarea></textarea>
+  </div>
+  <br/>
+  <input type="submit" value="Enviar"> 
+</form>
+  <br/>
+</body>
+</html>

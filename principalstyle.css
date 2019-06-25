@@ -1,0 +1,54 @@
+
+h1, h2, h3, table, th, td {
+	text-align:center;
+}
+
+a {
+	color:white;
+}
+
+body {
+	height: 100%;
+}
+
+footer {
+	background-color: red;
+}
+
+.column{
+	float: left;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.first, .third{
+	width: 25%;
+	height: 300px;
+}
+
+.first {
+	background-color: white;
+	border-left: 3px solid black;
+}
+
+.second {
+	background-color: red;
+	height: 300px;
+}
+
+.third {
+	background-color: green;
+	border-right: 3px solid black;
+}
+
+.second {
+	width: 49.5%;
+}
+
+#platos{
+	margin-left: 263px;
+}
+
+[postDestacado] {
+	font-family: Monotype Corsiva;
+}
